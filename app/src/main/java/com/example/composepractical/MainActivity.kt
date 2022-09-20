@@ -31,8 +31,8 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             val painter = painterResource(id = R.drawable.img)
-            val description = "Synthia in the auditorium"
-            val title = "Synthia in the auditorium"
+            val description = "Donate Blood Save life"
+            val title = "Donate Blood Save life"
             Box(modifier = Modifier
                 .fillMaxWidth(0.5f)
                 .padding(16.dp))
